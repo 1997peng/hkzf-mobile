@@ -1,0 +1,6 @@
+export const GET_BANNER='GetBanner'
+export const GET_GROUPS='GetGroups'
+export const GET_NEWSLIST='GetNewslist'
+export const GET_CITYLIST='GetCitylist'
+export const GET_CITYHOT='GetCityhost'
+export const CITY_NAME='CityName'

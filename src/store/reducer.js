@@ -1,7 +1,8 @@
-const defaultState={
-	inputValue:"我是张三"
-}
-const fnc=(state=defaultState,action)=>{
-	return state
-}
-export default fnc;
+import {combineReducers} from 'redux';
+import HomeReuder from './home/index.js'
+import CityReuder from './city/index.js'
+const defaultState=combineReducers({
+	Home:HomeReuder,
+	City:CityReuder
+})
+export default defaultState
